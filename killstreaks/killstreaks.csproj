@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6183D0E0-C143-4B88-8D13-2DEEECB836E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>killstreaks</RootNamespace>
+    <AssemblyName>killstreaks</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InfinityScript">
+      <HintPath>D:\TEKNOSERVER\InfinityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="a10.cs" />
+    <Compile Include="aamissile.cs" />
+    <Compile Include="aastrike.cs" />
+    <Compile Include="ac130.cs" />
+    <Compile Include="airdrop.cs" />
+    <Compile Include="airstrike.cs" />
+    <Compile Include="autosentry.cs" />
+    <Compile Include="deployablebox.cs" />
+    <Compile Include="emp.cs" />
+    <Compile Include="escortairdrop.cs" />
+    <Compile Include="harrier.cs" />
+    <Compile Include="helicopter.cs" />
+    <Compile Include="helicopter_flock.cs" />
+    <Compile Include="helicopter_guard.cs" />
+    <Compile Include="heligunner.cs" />
+    <Compile Include="ims.cs" />
+    <Compile Include="juggernaut.cs" />
+    <Compile Include="killstreaks.cs" />
+    <Compile Include="mobilemortar.cs" />
+    <Compile Include="nuke.cs" />
+    <Compile Include="perkstreaks.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="remotemissile.cs" />
+    <Compile Include="remotemortar.cs" />
+    <Compile Include="remotetank.cs" />
+    <Compile Include="remoteturret.cs" />
+    <Compile Include="remoteuav.cs" />
+    <Compile Include="tank.cs" />
+    <Compile Include="teamammorefill.cs" />
+    <Compile Include="uav.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
