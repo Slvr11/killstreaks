@@ -2,7 +2,7 @@
 
 InfinityScript Version: 1.5 (Private Build)
 
-Date Created: Spetember 28, 2016
+Date Created: September 28, 2016
 
 Last Modified Date: November 29, 2018
 
